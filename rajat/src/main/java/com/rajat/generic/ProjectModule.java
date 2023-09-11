@@ -3,17 +3,19 @@ package com.rajat.generic;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class ProjectModule extends BaseClass {
+public class ProjectModule extends BaseClassContent{
 	@Test
-	public void CreateProject() {
-		Reporter.log("Create Project",true);
+	public void createProject() {
+		Reporter.log("Create Project in Generic",true);
 	}
 	@Test
 	public void modifyProject() {
-		Reporter.log("MOdify Project",true);
+		Reporter.log("Modify Project in Generic",true);
+		String text = d.getTitle();
+		Reporter.log(text, true);
 	}
 	@Test
 	public void deleteProject() {
-		Reporter.log("Delete Project",true);
+		Reporter.log("Delete Project in Generic",true);
 	}
 }

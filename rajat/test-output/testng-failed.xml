@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rajat.testscript.DemoAssertion">
+      <class name="com.vyaparapp.pom.orderPlace">
         <methods>
-          <include name="verifyTitle"/>
+          <include name="orderPlaceItem"/>
         </methods>
-      </class> <!-- com.rajat.testscript.DemoAssertion -->
+      </class> <!-- com.vyaparapp.pom.orderPlace -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
